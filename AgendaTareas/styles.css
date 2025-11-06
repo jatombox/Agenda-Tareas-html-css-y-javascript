@@ -1,0 +1,28 @@
+/* 
+     Estilos específicos de la aplicación que complementan a Bootstrap 
+     La mayoría de los estilos generales (body, h1, input, button, #auth-container) 
+     han sido reemplazados por clases de Bootstrap en index.html.
+*/
+
+/* Estilo visual para una tarea completada */
+.completada {
+  text-decoration: line-through; /* Tachado */
+  color: gray !important; /* Usar !important para asegurar que sobrescriba el color de Bootstrap */
+}
+
+/* Clase para ocultar elementos (mantenida para la lógica de script.js) */
+.oculto {
+  display: none;
+}
+
+/* Estilo para el texto de la tarea dentro del li (para que sea clickeable) */
+.tarea-texto {
+    cursor: pointer;
+    flex-grow: 1; /* Para que ocupe el espacio disponible */
+    text-align: left;
+}
+
+/* Ajuste para el mensaje informativo */
+p.info {
+  font-size: 0.9rem;
+}
